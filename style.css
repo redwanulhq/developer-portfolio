@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     font-family: 'Poppins', sans-serif;
+}
+.welcome-area {
+     display: grid;
+     grid-template-columns: 1.5fr 1fr;
+     grid-column-gap: 20px;
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+}
+.common-area {
+     margin-bottom: 50px;
+}
+.common-area div {
+     padding: 50px;
+}
+.pt-40 {
+     padding-top: 40px;
+}
+.common-area h1 {
+     font-size: 45px;
+}
+.colored-text {
+     color: tomato;
+}
+.common-area h3 {
+     color: #333;
+}
+.common-area p {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     color: #555;
+}
+.sec-btn {
+     display: inline-block;
+     padding: 12px 50px;
+     background-image: linear-gradient(to right, #fd9b89, tomato);
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     font-weight: 600;
+}
+.common-area img {
+     width: 100%;
+}
+
+/* Resume */
+.resume-area {
+     display: grid;
+     grid-template-columns: 1fr 1.5fr;
+     grid-column-gap: 20px;
+     background-image: url(images/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right bottom;
+}
+
+/* Experience */
+.experience-area {
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left center;
+     margin-bottom: 100px;
+}
+.exp-card-holder {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .exp-card {
+      width: 550px;
+      box-shadow: 0 0 20px #808080;
+      padding: 40px;
+      min-height: 350px;
+      border-radius: 5px;
+ }
+.exp-card h2 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.exp-card h3 {
+  padding-bottom: 30px;
+}
+
+.experience-area h1 {
+     padding-left: 50px;
+     font-size: 45px;
+     padding-bottom: 50px;
+}
+.experience-area p {
+     color: #555;
+}
+.exp-card-1{
+     border-left: 7px solid;
+     border-image: linear-gradient(to bottom, #fd9b89, tomato);
+     border-image-slice: 1;
+}
+.exp-card-2{
+     border-left: 7px solid;
+     border-image: linear-gradient(to bottom, blue, cyan);
+     border-image-slice: 1;
+}
+/* footer */
+footer {
+     text-align: center;
+     color: #555;
+     padding: 15px 0;
+}
